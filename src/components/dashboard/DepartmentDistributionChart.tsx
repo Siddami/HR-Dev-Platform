@@ -19,7 +19,7 @@ const DepartmentDistributionChart = () => {
               dataKey="value"
               label={({ name, value }) => `${name}: ${value}`}
             >
-              {departmentData.map((entry, index) => (
+              {departmentData.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
                   fill={PIE_COLORS[index % PIE_COLORS.length]}
@@ -32,6 +32,6 @@ const DepartmentDistributionChart = () => {
       </div>
     </div>
   );
-}
+};
 
-export default DepartmentDistributionChart
+export default DepartmentDistributionChart;
