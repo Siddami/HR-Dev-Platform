@@ -4,6 +4,8 @@
     --color-primary: #155DFC;
     --color-primary-text: #0A0A0A;
     --color-gray: #717182;
-    --border-fade: #BEDBFF;
-    --fade-bg: #EFF6FF;
+    --color-border-fade: #BEDBFF;
+    --color-fade-bg: #EFF6FF;
+    --color-pink: #E9D4FF;
+    --color-pink-fade: #FAF5FF;
 }
